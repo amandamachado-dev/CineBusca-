@@ -323,5 +323,7 @@ footer a:hover {
     main {
         height: 90vh;
     }
-    
+    footer {
+        margin-top: 0.3rem;
+    }
 }
