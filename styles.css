@@ -123,7 +123,7 @@ main {
     color: rgb(255, 255, 255); 
     text-align: justify;
     backdrop-filter: blur(2px);
-    
+    margin: 5px 0 ;
 }
 
 .busca  {
@@ -263,7 +263,7 @@ footer a:hover {
     .sub-tittle {
         
         font-size: 1rem;
-        margin-top: 4rem;
+        
         padding: 0.8rem;
          
         text-align: justify;
