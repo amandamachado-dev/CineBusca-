@@ -243,6 +243,10 @@ footer a:hover {
 
 
 @media screen and (max-width: 800px){
+    main {
+        height: 75vh;
+    }
+    
     .tittle {
         margin-top: 5rem ;
     }
@@ -298,6 +302,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 480px){
+    main {
+        height: 75vh;
+    }
+    
     #results {
         grid-template-columns: 250px;
     }
