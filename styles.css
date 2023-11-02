@@ -303,7 +303,7 @@ footer a:hover {
 
 @media screen and (max-width: 480px){
     main {
-        height: 75vh;
+        height: 90vh;
     }
     
     #results {
