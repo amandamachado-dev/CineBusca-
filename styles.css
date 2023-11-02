@@ -117,7 +117,7 @@ main {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 1rem  3rem ;
     color: rgb(255, 255, 255); 
     text-align: justify;
@@ -304,6 +304,24 @@ footer a:hover {
 @media screen and (max-width: 480px){
     main {
         height: 75vh;
+    }
+    
+    #results {
+        grid-template-columns: 250px;
+    }
+    .busca  {
+        
+        margin: 0 5%;   
+        
+    }
+    footer {
+        margin-top: 3.5rem;
+    }
+}
+
+@media screen and (min-width:300px) and ( max-width: 400px){
+    main {
+        height: 90vh;
     }
     
     #results {
