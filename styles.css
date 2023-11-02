@@ -61,12 +61,15 @@ a .nav-item {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     height: 75vh;
     /*background-color: #4ca0ee;*/
     background-image: url(./assets/img/background.jpg);
     opacity: 0.9;
-    margin-bottom: 7rem;
+    font-weight: 700;
+    
     
 }
 
@@ -245,7 +248,7 @@ footer a:hover {
 
 @media screen and (max-width: 800px){
     main {
-        height: 75vh;
+        height: 100vh;
     }
     
     .tittle {
@@ -304,7 +307,7 @@ footer a:hover {
 
 @media screen and (max-width: 480px){
     main {
-        height: 90vh;
+        height: 100vh;
     }
     
     #results {
