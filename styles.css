@@ -66,7 +66,9 @@ main {
     padding: 1rem;
     height: 75vh;
     /*background-color: #4ca0ee;*/
-    background-image: url(./assets/img/background.jpg);
+    background-image: url(./assets/img/test.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.9;
     font-weight: 700;
     
@@ -106,7 +108,7 @@ main {
 .tittle h1 {
     font-size: 8rem;
     backdrop-filter: blur(2px);
-    background-image: linear-gradient(to bottom,rgb(255, 255, 255),  rgb(255, 255, 255)); /* Configure as cores do gradiente */
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),  rgb(129, 55, 136)); /* Configure as cores do gradiente */
         -webkit-background-clip: text; /* Para navegadores baseados em WebKit, como Chrome e Safari */
         background-clip: text;
         color: transparent;
@@ -125,7 +127,7 @@ main {
     padding: 1rem  3rem ;
     color: rgb(255, 255, 255); 
     text-align: justify;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
     margin: 5px 0 ;
 }
 
@@ -194,7 +196,7 @@ button:hover {
     align-items: center;
     text-align: justify;
     border-radius: 8px;
-    background-image: linear-gradient(to bottom,#094c8a,  black);
+    background-image: linear-gradient(to bottom,#094c8a, rgb(119, 55, 119),  black);
     backdrop-filter: blur(50deg);
 
 }
@@ -202,9 +204,9 @@ button:hover {
 
 #results img {
     max-width: 200px;
-    margin-left: 22px ;
+    margin:2px 12% 2px  ;
     cursor: pointer;
-    
+    border-radius: 8px;
     
 }
 
@@ -252,7 +254,7 @@ footer a:hover {
     }
     
     .tittle {
-        margin-top: 5rem ;
+        margin-top: 1rem ;
     }
 
     .tittle h4 {
@@ -311,19 +313,26 @@ footer a:hover {
     }
     
     #results {
-        grid-template-columns: 250px;
+        grid-template-columns: 280px;
     }
+    
     .busca  {
         
         margin: 0 5%;   
         
     }
-    
+    .tittle {
+        margin-top: 1rem ;
+    }
 }
 
 @media screen and (min-width:300px) and ( max-width: 400px){
     main {
         height: 90vh;
     }
+    .tittle {
+        margin-top: 1rem ;
+    }
+    
     
 }
