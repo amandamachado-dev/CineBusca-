@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+
+nav .navbar {
+
+    width: 100%;
+    height: 8vh;
+    padding: 2rem 6rem;
+    border-bottom: 1px solid #067eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+        
+}
+
+.img-logo {
+    width: 80px;
+    height: 80px;
+    top: 0;
+    
+}
+
+#wpp {
+    width: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+a .nav-item {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000; 
+    font-size: 1.2rem;
+    
+
+}
+
+.nav-itens {
+    display: flex;
+    gap: 2rem;
+}
+
+
+/* main */
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 65vh;
+    /*background-color: #4ca0ee;*/
+    background-image: url(./assets/img/background.jpg);
+    opacity: 0.9;
+    
+}
+
+
+
+
+.main-tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+    
+    
+    
+}
+.tittle{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(255, 255, 255); 
+    left: 0;
+    
+    
+}
+
+.tittle h4 {
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.tittle h1 {
+    font-size: 8rem;
+    backdrop-filter: blur(2px);
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),  rgb(255, 255, 255)); /* Configure as cores do gradiente */
+        -webkit-background-clip: text; /* Para navegadores baseados em WebKit, como Chrome e Safari */
+        background-clip: text;
+        color: transparent;
+    
+}
+
+.sub-tittle {
+    
+    max-width: 60rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem  3rem ;
+    color: rgb(255, 255, 255); 
+    text-align: justify;
+    backdrop-filter: blur(2px);
+    
+}
+
+.busca  {
+    
+    position: absolute;
+    margin: 0 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.busca p {
+    color: #000000; 
+}
+.busca input {
+    width: 28rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 252, 252);
+    
+}
+.busca button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: 2rem;
+    padding: 0 2px 3px 0;
+    background-color: #067eee;
+    color: rgb(255, 255, 255);
+}
+button:hover {
+    cursor: pointer;
+    
+}
+.busca-photo {
+    display: flex;
+}
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    
+}
+
+/* RESULTS*/
+
+#results {
+    margin-top: 20px;
+    left: 0;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px ;
+    
+    justify-content: center;
+    color: azure;
+    gap: 20px;
+    padding: 10px;
+    
+    
+}
+#results div {
+    border: 2px solid #4ca0ee; /* Adiciona bordas de 2px sólidas brancas a todas as células */
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom,#094c8a,  black);
+    backdrop-filter: blur(50deg);
+
+}
+
+
+#results img {
+    max-width: 200px;
+    margin-left: 22px ;
+    cursor: pointer;
+    
+    
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto no footer */
+    text-align: center;
+    padding: 20px 0; /* Espaçamento interno do footer */
+    
+    margin-top: 7.5rem;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilos opcionais para links no footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 1080px){
+    #results {
+        grid-template-columns: 250px 250px 250px;
+    }
+    .busca  {   
+        
+        margin: 0 15%;       
+        
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .tittle {
+        margin-top: 5rem ;
+    }
+
+    .tittle h4 {
+        font-size: 1.5rem;
+        
+    }
+    .tittle h1 {
+        font-size: 4rem;
+        
+    }
+    .sub-tittle {
+        
+        font-size: 1rem;
+        margin-top: 4rem;
+        padding: 0.8rem;
+         
+        text-align: justify;
+    }
+
+    #wpp {
+        max-width: 30px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 1px solid #fff;
+    }
+    a {
+        text-decoration: none;
+        color: #000000; 
+        font-size: 0.8rem;
+    
+    }
+    .nav-itens {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .busca  {
+        margin-left: 1rem;        
+        padding: 1rem;
+        margin: 0 10%;   
+        
+    }
+    
+
+    #results {
+        grid-template-columns: 250px 250px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 480px){
+    #results {
+        grid-template-columns: 250px;
+    }
+    .busca  {
+        
+        margin: 0 5%;   
+        
+    }
+    footer {
+        margin-top: 3.5rem;
+    }
+}
