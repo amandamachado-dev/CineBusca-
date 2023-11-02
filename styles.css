@@ -315,7 +315,7 @@ footer a:hover {
         
     }
     footer {
-        margin-top: 3.5rem;
+        margin-top: 0.3rem;
     }
 }
 
@@ -324,15 +324,4 @@ footer a:hover {
         height: 90vh;
     }
     
-    #results {
-        grid-template-columns: 250px;
-    }
-    .busca  {
-        
-        margin: 0 5%;   
-        
-    }
-    footer {
-        margin-top: 3.5rem;
-    }
 }
