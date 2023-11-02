@@ -314,16 +314,12 @@ footer a:hover {
         margin: 0 5%;   
         
     }
-    footer {
-        margin-top: 0.3rem;
-    }
+    
 }
 
 @media screen and (min-width:300px) and ( max-width: 400px){
     main {
         height: 90vh;
     }
-    footer {
-        margin-top: 0.3rem;
-    }
+    
 }
