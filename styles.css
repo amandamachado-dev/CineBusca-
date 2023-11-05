@@ -61,13 +61,14 @@ main {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    height: 75vh;
-    /*background-color: #4ca0ee;*/
+    height: 75vh;    
     background-image: url(./assets/img/test.png);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
     font-weight: 700;
+    border-radius: 40px;
+    margin: 10px;
 
 }
 
